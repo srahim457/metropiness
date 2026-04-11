@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "metropiness"
+version = "0.1.0"
+description = "Classify US coordinates as metro, suburban, or rural"
+requires-python = ">=3.9"
+dependencies = [
+    "geopandas",
+    "shapely
+]
