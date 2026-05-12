@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Downloaded data for building
+scripts/tract_shapefiles/
+
+# OS junk
+.DS_Store
