@@ -14,9 +14,7 @@ Metropiness ties it all together into one local lookup.
 
 ## Install
 
-```
 clone this git repo
-```
 
 ## Usage
 
@@ -81,3 +79,6 @@ This downloads all state-level TIGER/Line shapefiles from the Census Bureau, com
 The bundled tract boundaries are simplified to reduce file size (~35MB vs ~628MB uncompressed). This means points very close to tract borders may occasionally be assigned to a neighboring tract. In validation testing against the Census Bureau's geocoder API, the vast majority of lookups match exactly. When mismatches occur, the neighboring tract almost always has the same RUCA classification.
 
 For maximum accuracy, use `build_data.py` to generate an uncompressed version.
+
+## Contact
+srahim457@gmail.com
